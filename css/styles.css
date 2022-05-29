@@ -36,21 +36,13 @@ h4 {
 
 .albintxt {
   font-size: 1.5vw;
-}
-
-.ilove {
-  font-size: 1.5vw;
+  line-height: 80%;
 }
 
 
 /* Body */
 
-.web {
-  font-size: 2.2vw;
-  text-align: center;
-}
-
-.py {
+.skills-1 {
   font-size: 2.2vw;
   text-align: center;
 }
@@ -64,7 +56,7 @@ table, tr, td {
 
 .top {
   background-color: #E8F9FD;
-  padding-top: 6%;
+  padding-top: 4%;
   max-width: 100%;
   height: auto;
   position: relative;
@@ -118,6 +110,12 @@ table, tr, td {
   width: 25%;
   float: right;
   margin-left: 5%;
+}
+
+.gif3 {
+  width: 25%;
+  float: left;
+  margin-right: 5%;
 }
 
 /* Footer */
