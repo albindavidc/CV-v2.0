@@ -1,148 +1,194 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
 
-<head>
-  <meta charset="utf-8">
-  <title>ALBIN DAVID C</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-</head>
+/* Header */
+h1 {
+  color: #0AA1DD;
+  margin-top: 5%;
+  font-family: 'Sacramento', cursive;
+  font-size: 2vw;
+}
 
-<body>
-  <div class="maindiv">
+h2 {
+  font-weight: normal;
+  color: #0069A7;
+  font-size: 2vw;
+  font-family: 'Montserrat' sans-serif;
+}
 
-    <div class="top">
-      <img class="cloud-one" src="images/cloud.png" alt="">
-      <img class="cloud-two" src="images/cloud.png" alt="">
-      <h1 class="fonts">Hello,</h1>
-      <img class="cloud-three" src="images/cloud.png" alt="">
-      <img class="cloud-four" src="images/cloud.png" alt="">
-      <h2 class="fonts col-lg-">I'm ALBIN</h2>
-      <img class="albinimg" src="images/albin.png" alt="Mountain image">
-      <h4 class="albintxt">ALBIN DAVID C</h4>
-      <p class="albintxt">I 💚 coding & Designing.</p>
-    </div>
+h3 {
+  color: #0AA1DD;
+  font-size: 1.5vw;
+  font-family: 'Montserrat' sans-serif;
+}
 
-    <div class="middle">
-      <div class="skills">
-        <h2 class="myskills">My Skills</h2>
+h4 {
+  padding-top: 3%;
+}
 
-        <div class="skill-row">
-          <img class="gif1 circular" src="images/giphy1.gif" alt="">
-          <h3 class="skills-1">Web Development</h3>
-          <table>
-            <tr>
-              <td>
-                HTML
-              </td>
-              <td>
-                CSS
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Bootstrap
-              </td>
-              <td>
-                JavaScript
-              </td>
-            </tr>
-            <tr>
-              <td>
-                .......
-              </td>
-              <td>
-                .......
-              </td>
-            </tr>
-          </table>
-        </div>
+.myskills {
+  text-shadow: 1px 1px 1px #0069A7,
+    2px 2px 1px #0AA1DD;
+}
 
-        <div class="skill-row">
-          <img class="gif2 circular" src="images/giphy2.gif" alt="">
-          <h3 class="skills-1">Python Development</h3>
-          <table>
-            <tr>
-              <td>
-                Django
-              </td>
-              <td>
-                .......
-              </td>
-            </tr>
-            <tr>
-              <td>
-                .......
-              </td>
-              <td>
-                .......
-              </td>
-            </tr>
-            <tr>
-              <td>
-                .......
-              </td>
-              <td>
-                .......
-              </td>
-            </tr>
-          </table>
-        </div>
+.albintxt {
+  font-size: 1.5vw;
+  line-height: 80%;
+}
 
-        <div class="skill-row">
-          <img class="gif3 circular" src="images/giphy.gif" alt="">
-          <h3 class="skills-1">Designing</h3>
-          <table>
-            <tr>
-              <td>
-                Photoshop
-              </td>
-              <td>
-                .......
-              </td>
-            </tr>
-            <tr>
-              <td>
-                .......
-              </td>
-              <td>
-                .......
-              </td>
-            </tr>
-            <tr>
-              <td>
-                .......
-              </td>
-              <td>
-                .......
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
+/* Body */
+.skills-1 {
+  font-size: 2.2vw;
+  text-align: center;
+}
 
-      <hr class="hr">
+table, tr, td {
+  font-size: 1.5vw;
+  text-align: center;
+  border-collapse: collapse;
+  width: 60%;
+}
 
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you love hot wings as much as i do</h3>
-        <p class="contactp">Love hot wings as much as i do. Let's talk about how awsome they are!
-           We can code while we eat hot wings</p>
-        <a class="btn" href="mailto:albindavidc007@gmail.com">CONTACT ME</a>
-      </div>
-    </div>
+.top {
+  background-color: #E8F9FD;
+  padding-top: 4%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 10%;
+}
 
+.middle {
+  padding-top: 5%;
+  background-color: white;
+  padding-bottom: 6%;
+}
 
-    <div class="bottom">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://cadtek.in/">Website</a>
-      <p class="copyright">© 2022 Albin David C.</p>
-    </div>
-  </div>
-</body>
+.bottom {
+  background-color: #B3E8E5;
+  padding-top: 3%;
+  padding-bottom: 1%
+}
 
-</html>
+.hr {
+  margin: auto;
+  border-style: none;
+  border-top: dotted;
+  border-color: #B3E8E5;
+  border-width: 5px;
+  width: 10%;
+  padding-bottom: 5%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 8% auto 10% auto;
+  line-height: 2;
+}
+
+/* Images */
+.albinimg {
+  width: 20%;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.gif1 {
+  width: 25%;
+  float: left;
+  margin-right: 5%;
+}
+
+.gif2 {
+  width: 25%;
+  float: right;
+  margin-left: 5%;
+}
+
+.gif3 {
+  width: 25%;
+  float: left;
+  margin-right: 5%;
+}
+
+/* Footer */
+a {
+  color: #0AA1DD;
+  font-family: 'Montserrat' sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.contactp {
+  width: 35%;
+  font-size: 1.5vw;
+  margin: 40px auto 60px;
+  padding-bottom: 2%;
+  line-height: 170%;
+}
+
+.btn {
+  background-image: linear-gradient(#bbeefa, #34c9bf);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 30px;
+  font-family: 'Montserrat' sans-serif;
+  color: #ffffff;
+  font-size: 90%;
+  padding: 1% 2%;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(#7fe4fa, #0dded0);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #0AA1DD;
+  font-size: 90%;
+  padding: 20px 0;
+}
+
+/* Cloud */
+.cloud-one {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  max-width: 10%;
+  height: auto;
+}
+
+.cloud-two {
+  position: absolute;
+  top: 13%;
+  left: 20%;
+  max-width: 10%;
+  height: auto;
+}
+
+.cloud-three {
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  max-width: 10%;
+  height: auto;
+}
+
+.cloud-four {
+  position: absolute;
+  top: 6%;
+  right: 20%;
+  max-width: 10%;
+  height: auto;
+}
